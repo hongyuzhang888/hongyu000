@@ -1,0 +1,32 @@
+^D:\RECIPE-07完成了\CXX-EXAMPLE\BUILD\CMAKEFILES\8F9F14C6F8D63D4570CD00D0293BABAA\VERSION.HPP.RULE
+setlocal
+cd D:\recipe-07完成了\cxx-example
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\program\Microsoft Visual studio\2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -D TARGET_DIR=D:/recipe-07完成了/cxx-example/build -P D:/recipe-07完成了/cxx-example/git-hash.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\RECIPE-07完成了\CXX-EXAMPLE\BUILD\CMAKEFILES\BC6B2401880FC86ED2B36013CDEBCECB\GET_GIT_HASH.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\RECIPE-07完成了\CXX-EXAMPLE\CMAKELISTS.TXT
+setlocal
+"D:\program\Microsoft Visual studio\2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/recipe-07完成了/cxx-example -BD:/recipe-07完成了/cxx-example/build --check-stamp-file D:/recipe-07完成了/cxx-example/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

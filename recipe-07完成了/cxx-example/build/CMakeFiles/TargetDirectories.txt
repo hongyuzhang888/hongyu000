@@ -1,0 +1,4 @@
+D:/recipe-07完成了/cxx-example/build/CMakeFiles/example.dir
+D:/recipe-07完成了/cxx-example/build/CMakeFiles/get_git_hash.dir
+D:/recipe-07完成了/cxx-example/build/CMakeFiles/ALL_BUILD.dir
+D:/recipe-07完成了/cxx-example/build/CMakeFiles/ZERO_CHECK.dir
